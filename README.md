@@ -11,9 +11,13 @@ curl --request GET \
 
 ### Making requests
 > This examples requires the dependency: "request" v2.88.0
+
 ```js
 const request = require("request");
 request.get({ url: "https://api.sebby.tk/api/image/xkcd", headers: { token: "9118b4777fe86402f27h48dj29he886e19ffe8f7" } }, function (err, resp, body) {
   console.log(body);
 });
 ```
+
+## Endpoints
+### GET /api/image/xkcd
