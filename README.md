@@ -2,7 +2,7 @@
 A versatile API for discord developers.
 
 ### Authorization
-Supply your authorization token in every request. If you do not have one, you can [get one here]()
+Supply your authorization token in every request. If you do not have one, you can [get one here](http://apidashboard.sebby.tk/login)
 ```php
 curl --request GET \
 --url 'https://api.sebby.tk/api/image/xkcd' \
