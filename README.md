@@ -1,5 +1,5 @@
 # Sebby.tk API
-A dynamic API for any kind of developer, composed of many endpoints.
+A versatile API for discord developers.
 
 ### Authorization
 Supply your authorization token in every request. If you do not have one, you can [get one here]()
@@ -21,3 +21,24 @@ request.get({ url: "https://api.sebby.tk/api/image/xkcd", headers: { token: "911
 
 ## Endpoints
 ### GET /api/image/xkcd
+Returns a random XKCD comic
+### GET /api/image/reddit/{subreddit}
+Returns a picture from specified subreddit
+### GET /api/image/reddit/json/{subreddit}
+Returns a list of images from specified subreddit
+### GET /api/image/achievement/{text}
+Generates a Minecraft achievement with text
+### GET /api/search/youtube/{query}
+Searches for query on YouTube
+### GET /api/search/google/{query}
+Searches for query on Google
+### GET /api/twitter/user/{user}
+Gets latest tweets from user
+### GET /api/twitter/user/{tag}
+Gets latest tweets with hashtag
+### GET /api/weather/{zip}
+Gets local weather for specified zip code
+
+## Related APIs
+##### [TikTok API](http://tiktok.sebby.tk/api)
+##### [Seb Bot API](http://api.sebbot.tk)
